@@ -121,7 +121,7 @@ class MyClient(discord.Client):
 
 
 client = MyClient()
-# client.run("OTY0Njg2Mjk2MjE3OTQ0MDk0.YloQIA.cANIhJyxwxSTtz3b8NUMe286i1s")
+# client.run("MY_API_KEY")
 try:
     client.loop.run_until_complete(client.start("MY_API_KEY"))
 except KeyboardInterrupt:
