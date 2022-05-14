@@ -4,7 +4,7 @@ Discord Bot of Cory
 
 ## Description
 
-The Cory Discord Bot responds to messages starting with "cory" or "Cory" with his signature catchphrases
+The Cory Discord Bot responds to messages starting with "cory" or "Cory" with his signature catchphrases.
 
 ## Getting Started
 
