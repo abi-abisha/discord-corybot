@@ -119,12 +119,11 @@ class MyClient(discord.Client):
 # async def on_message(message):
 #     if message.author.id == self.user.id:
 
-# https://discord.com/api/oauth2/authorize?client_id=964686296217944094&permissions=2147691584&scope=bot%20applications.commands
 
 client = MyClient()
 # client.run("OTY0Njg2Mjk2MjE3OTQ0MDk0.YloQIA.cANIhJyxwxSTtz3b8NUMe286i1s")
 try:
-    client.loop.run_until_complete(client.start("OTY0Njg2Mjk2MjE3OTQ0MDk0.YloQIA.cANIhJyxwxSTtz3b8NUMe286i1s"))
+    client.loop.run_until_complete(client.start("MY_API_KEY"))
 except KeyboardInterrupt:
     client.loop.run_until_complete(client.close())
     print(client.counter)
